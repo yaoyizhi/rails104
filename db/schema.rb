@@ -10,9 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170315032435) do
+ActiveRecord::Schema.define(version: 20170315071505) do
 
-  create_table "group_ralationships", force: :cascade do |t|
+  create_table "group_relationships", force: :cascade do |t|
     t.integer  "group_id"
     t.integer  "user_id"
     t.datetime "created_at", null: false
